@@ -1,35 +1,32 @@
 {
-  "name": "isomorphic500",
-  "version": "2.0.0",
-  "description": "Example of an isomorphic React app using fluxible and webpack",
+  "name": "oredev-sessions",
+  "version": "1.0.0",
+  "description": "React sample app showing Øredev sessions from 2015",
   "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node index",
-    "dev": "NODE_ENV=development DEBUG=isomorphic500 nodemon index.js",
-    "prod": "NODE_ENV=production PORT=8080 DEBUG=isomorphic500 node index",
+    "dev": "NODE_ENV=development DEBUG=oredev-sessions nodemon index.js",
+    "prod": "NODE_ENV=production PORT=8080 DEBUG=oredev-sessions node index",
     "build": "webpack --stats --config ./webpack/prod.config.js",
     "postinstall": "npm run build",
     "lint": "eslint index.js src webpack config"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gpbl/isomorphic-react-template.git"
+    "url": "https://github.com/jeffhandley/oredev-sessions.git"
   },
   "keywords": [
-    "fluxible",
+    "oredev",
     "isomorphic",
     "react",
     "flux"
   ],
-  "author": "gpbl <io@gpbl.org> (https://github.com/gpbl)",
+  "author": "Jeff Handley <jeff@jeffhandley.com> (https://github.com/jeffhandley)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gpbl/isomorphic-react-template/issues"
+    "url": "https://github.com/jeffhandley/oredev-sessions/issues"
   },
-  "engines": {
-    "node": "0.12.x"
-  },
-  "homepage": "https://github.com/gpbl/isomorphic-react-template",
+  "homepage": "https://github.com/jeffhandley/oredev-sessions",
   "dependencies": {
     "autoprefixer-loader": "3.1.0",
     "babel": "5.8.23",
